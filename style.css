@@ -101,3 +101,44 @@
     display: inline-block;
     
   }
+
+  /*banner style start here*/
+  .banner{
+    width:100%;
+    height:450px;
+    background-image: url('https://storage.googleapis.com/prod-erp-hrms/documents/administrator_20211012082506.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=prod-erp-hrms%40brac-main.iam.gserviceaccount.com%2F20230122%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230122T163352Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=3e3347d3ccbc028757d70333e59fde15d7de7244790523e1b3fa2057b9e177538088f68ecdf7e9fa25ef136d155bedb04a4a73e4c739b539a84184fb7986efdad123e0da37d319b8d34233f84457801be4ad2379ec307f4391a9eb6bec8a4a84cf0b4d659b8442088351706715ad17e94582f894995769983c12b6908656f0f1b7986c7796ef79847d5795941ac3d80507403942df8771ce3bfbec35b6f38fcead13ed8dacde4acd7eb15ebf587d75da49f36c29a2e84b0dd630629777076faafbd183a31e9a81ccb7bd7842fd5943dcf3bf93bb2df473329a3d9a4019b4bf50939ead49d52a7b656d3a14450b0c08a6fecac114ca4aa6df8b1347665519ee30');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    align-items: center;
+    color:#fff;
+  }
+  .banner-content{
+    margin:0px 100px;
+  }
+  .banner-content p{
+    font-size: 30px;
+  }
+  .banner-content h1{
+    font-size: 50px;
+    margin:10px 0px;
+  }
+  .banner-content input{
+    width:300px;
+    height:50px;
+    border: none;
+    border-radius:5px;
+    background-color: #fff;
+    text-align: center;
+    
+  }
+  .banner-content button{
+    width:100px;
+    height:50px;
+    border: none;
+    background-color: #de0084;
+    margin-left:-10px;
+    color:#fff;
+    font-size: 18px;
+  }
+  
